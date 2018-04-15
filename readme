@@ -1,0 +1,6 @@
+Reminder Application is used to create, view, update or delete reminders.
+DB used is postgres and JDBC connection is established from the JSP pages.
+DB table name - reminder.
+Columns - title(stores reminder title),body(stores reminder content or description),date(stores reminder date).
+Screenshots for the reminder application is in the screenshot folder.
+Best deployed in tomcat7 web server.
