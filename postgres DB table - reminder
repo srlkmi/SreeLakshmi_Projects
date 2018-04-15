@@ -1,0 +1,17 @@
+-- Table: public.reminder
+
+-- DROP TABLE public.reminder;
+
+CREATE TABLE public.reminder
+(
+  id integer NOT NULL DEFAULT nextval('reminder_id_seq'::regclass),
+  title character varying(4000),
+  body character varying(4000),
+  rdate character varying(4000),
+  CONSTRAINT reminder_pk PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE public.reminder
+  OWNER TO postgres;
